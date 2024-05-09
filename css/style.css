@@ -1,0 +1,89 @@
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  label {
+    margin-bottom: 5px;
+  }
+  input, select {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button {
+    background-color: #28a745;
+    color: #fff;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1518803194621-27188ba362c9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNodXZhfGVufDB8fDB8fHww');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .login-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .login-container label {
+    margin-bottom: 5px;
+  }
+  .login-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .login-container button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .login-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  .google-login-button {
+    background-color: #dd4b39;
+    color: #fff;
+  }
+  .register-button {
+    background-color: #28a745;
+    color: #fff;
+  }
